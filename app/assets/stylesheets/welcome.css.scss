@@ -4,4 +4,24 @@
 body{
   color: #797979;
   font-family: sans-serif, helvetica;
+  header{
+    width: 100%;
+    background: #f3f3f3;
+    color: #111111;
+  }
+  .main_content{
+    background: #eeeeee;
+    span{
+      font-style: italic;
+    }
+  }
+  footer{
+    background: #797979;
+    color: #eeeeee;
+    text-align: center;
+    span{
+      text-decoration: overline;
+      font-size: .8em;
+    }
+  }
 }
